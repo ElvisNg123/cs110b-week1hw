@@ -18,7 +18,7 @@ int main(){
 	cout <<"9 for Power"<< endl;
 	cin >> choice;
 	
-while(choice > 0 || choice < 10){
+
 		switch(choice){ //do addition
 			case 1: 
         cout << "Enter your first number" << endl;
@@ -79,8 +79,7 @@ while(choice > 0 || choice < 10){
 			cout << "Invalid Input, try again"<< endl;	
 		}
 
-		cout << "The result is " << result << endl;
-	  }
+	cout << "The result is " << result << endl;
 	return 0;
 }
 
