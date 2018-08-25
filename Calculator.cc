@@ -50,7 +50,7 @@ while(choice > 0 || choice < 10){
 			result = num1/num2;
 			break;
 			case 5: //Square Root
-			cout <<"Enter a number"<< endl;
+			cout << "Enter a number"<< endl;
 			cin >> num1;
 			result = sqrt(num1);
 			break;
@@ -64,22 +64,22 @@ while(choice > 0 || choice < 10){
 			cin >> num1;
 			result = cbrt(num1);
 			break;
-			case 8;// Cube
+			case 8:// Cube
 			cout << "Enter first number"<< endl;
 			cin >> num1;
 			result = num1*num1*num1;
 			break;
-			case 9;// Power
+			case 9:// Power
 			cout << "Enter number"<< endl;
 			cin >> num1;
 			cout << "Enter the power"<< endl;
 			cin >> num2;
-			result = pow(num1, num2);*/
+			result = pow(num1, num2);
 			default:  
 			cout << "Invalid Input, try again"<< endl;	
 		}
 
-		cout << "The result is" << result << endl;
+		cout << "The result is " << result << endl;
 	  }
 	return 0;
 }
